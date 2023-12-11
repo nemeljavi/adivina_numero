@@ -1,0 +1,5 @@
+En primer lugar el archivo index es el que informa del juego y lee los intentos por get, establece los intervalos de los intentos en el formulario en 10 intentos 15 y 20, podríamos llamarla en un juego o aplicación la pantalla principal. Las variables contienen los intentos que den los input de tipo radio
+
+En el archivo jugar.php se recibe vía post la opción para jugar (empezar identifica e inicializa las variables) o reiniciar. Al realizar la jugada se calcula con: $numero_propuesto=($min+$max)/2.
+
+En el archivo fin.php visualiza el mensaje de fin de juego y apaga el juego.
